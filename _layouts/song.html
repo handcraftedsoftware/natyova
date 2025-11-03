@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="song">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    {% if page.year %}Год: {{ page.year }} • {% endif %}
+    {% if page.album %}Альбом: {{ page.album }}{% endif %}
+  </p>
+
+  {% if page.youtube_id %}
+  <div class="embed">
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+  </div>
+  {% endif %}
+
+  {% if page.spotify_url or page.apple_url or page.yandex_url or page.deezer_url %}
+  <div class="platforms">
+    {% include platform-buttons.html %}
+  </div>
+  {% endif %}
+
+  <h2>Текст</h2>
+  <div class="lyrics">
+    {{ content }}
+  </div>
+</article>

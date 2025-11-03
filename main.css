@@ -1,0 +1,23 @@
+:root{--bg:#0b0d12;--text:#e9ecf1;--muted:#9aa3b2;--brand:#6ab0ff;--border:#1a1f2b;}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto;color:var(--text);background:linear-gradient(180deg,#0b0d12,#101521)}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;border-bottom:1px solid var(--border);background:#0f1420;position:sticky;top:0;z-index:10}
+.logo{font-weight:700;color:var(--text);text-decoration:none}
+nav a{margin-left:16px;color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--text)}
+.site-footer{padding:24px;border-top:1px solid var(--border);color:var(--muted);background:#0f1420}
+.hero{padding:40px 0}
+.hero h1{font-size:40px;margin:0 0 8px}
+.hero p{margin:8px 0 16px}
+.btn{display:inline-block;padding:10px 16px;border-radius:999px;border:1px solid var(--brand);text-decoration:none;color:var(--text);margin-right:10px}
+.btn.ghost{background:transparent}
+.btn:hover{background:rgba(106,176,255,.1)}
+.song .meta{color:var(--muted)}
+.embed{margin:16px 0;aspect-ratio:16/9}
+.embed iframe{width:100%;height:100%;border:0;border-radius:12px}
+.lyrics{white-space:pre-wrap;background:#0f1420;border:1px solid var(--border);padding:16px;border-radius:12px}
+.song-list{list-style:none;padding-left:0}
+.song-list li{padding:8px 0;border-bottom:1px dashed var(--border)}
+.btn-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}
+@media (max-width:600px){.hero h1{font-size:28px}}
