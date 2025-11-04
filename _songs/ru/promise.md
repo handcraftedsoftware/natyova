@@ -1,7 +1,7 @@
 ---
 title: Пообещай мне
 year: 2025
-youtube_id: ""
+youtube_id: "UusbgMvuDKo?si=zdg_jc6elwB95m9j"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"
@@ -18,7 +18,7 @@ apple_url: "https://music.apple.com/track/XXXXXXXX"
 Почему же в ответ
 Выбираешь молчать
 
-[Chorus ]
+[Chorus]
 Пообещай мне прямо сейчас
 Глядя в глаза
 Без улыбчивых фраз
@@ -36,14 +36,14 @@ apple_url: "https://music.apple.com/track/XXXXXXXX"
 Может, сильно ревнуешь,
 В чём ещё твоя драма?
 
-[Chorus ]
+[Chorus]
 Пообещай мне прямо сейчас
 Глядя в глаза
 Без улыбчивых фраз
 Если захочешь — ты сделаешь взмах
 Если полюбишь — уже не предашь.
 
-[Bridge ]
+[Bridge]
 Хватит дарить слезы другим
 Хватит страдать от того, что один
 Все дороги закрыты для тех,
@@ -52,14 +52,14 @@ apple_url: "https://music.apple.com/track/XXXXXXXX"
 Помни я близко,
 если что позови.
 
-[Chorus ]
+[Chorus]
 Пообещай мне прямо сейчас
 Глядя в глаза
 Без улыбчивых фраз
 Если захочешь — ты сделаешь взмах
 Если полюбишь — уже не предашь.
 
-[Chorus ]
+[Chorus]
 Пообещай мне прямо сейчас
 Глядя в глаза
 Без улыбчивых фраз
