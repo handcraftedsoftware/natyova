@@ -1,7 +1,7 @@
 ---
 title: Танцпол
 year: 2025
-youtube_id: ""
+youtube_id: "YcIB8ijA1n4?si=QPsdaBj74ubsaB9O"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"

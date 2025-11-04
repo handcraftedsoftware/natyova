@@ -1,7 +1,7 @@
 ---
 title: Когда?
 year: 2025
-youtube_id: ""
+youtube_id: "C3zQOh-K-Kg?si=qIboMwf0CuvAVDy7"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"

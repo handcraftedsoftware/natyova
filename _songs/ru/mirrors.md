@@ -1,7 +1,7 @@
 ---
 title: Зеркала
 year: 2025
-youtube_id: ""
+youtube_id: "38PRlKEKsgg?si=ok29foHmz1DcR7Bl"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"

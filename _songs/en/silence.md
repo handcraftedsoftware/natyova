@@ -1,7 +1,7 @@
 ---
 title: Silence
 year: 2025
-youtube_id: ""
+youtube_id: "dIj5R0L9y70?si=UomC3kK0QecYniL3"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"

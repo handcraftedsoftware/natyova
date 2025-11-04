@@ -1,7 +1,7 @@
 ---
 title: Запуталась
 year: 2025
-youtube_id: ""
+youtube_id: "KfK_koWxfTc?si=CZcaUg9u-E_syN2u"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"

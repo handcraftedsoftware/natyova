@@ -1,7 +1,7 @@
 ---
 title: Games
 year: 2025
-youtube_id: ""
+youtube_id: "WKU13oQ0kdw?si=-dX3rsJlJcJzgL3T"
 yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"
