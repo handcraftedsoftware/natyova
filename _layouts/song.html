@@ -4,8 +4,7 @@ layout: default
 
 <article class="song">
     <p class="meta">{% if page.album %}Альбом: {{ page.album }}{% endif %}</p>
-
-    {% if page.youtube_id %}
+    {% if page.youtube_id and page.youtube_id != "" %}
     <div class="embed">
         <iframe
             width="560"
@@ -16,6 +15,12 @@ layout: default
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
         ></iframe>
+    </div>
+    {% else %}
+    <div class="coming-soon-banner">
+        <div class="banner-inner">
+            <p>🎵 Скоро на YouTube</p>
+        </div>
     </div>
     {% endif %} {% if page.spotify_url or page.apple_url or page.yandex_url or page.deezer_url %}
     <div class="platforms">{% include platform-buttons.html %}</div>
