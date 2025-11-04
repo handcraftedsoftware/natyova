@@ -1,33 +1,39 @@
-.site-hero-css {
-    min-height: clamp(90px, 18vw, 90px);
-    /*background: #000;*/
-    position: relative;
-}
-.site-hero-css .hero-inner {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    flex-direction: column;
-    color: #fff;
-    /*text-align: center;*/
-    padding: 2rem;
-    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.site-hero-css .hero-inner .header {
-    font-size: 2rem;
+html {
+    line-height: 1.75;
+    font-size: 1.25em;
+    font-family:
+        "PT Sans Narrow", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
 }
-/* Общие стили для тёмной темы */
+
 body {
     background-color: #121212;
     color: #fff;
     background-image: url("/assets/img/header-disco.svg");
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover; /* заполняет ширину экрана */
-    background-attachment: fixed; /* делает эффект «фон тянется вниз» */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 90ch;
+    padding: 1em 1em;
+    margin: auto;
+}
+
+.site-hero-css {
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.site-hero-css .hero-inner .header {
+    font-size: 2rem;
 }
 
 /* Ссылки — светящиеся/яркие */
@@ -51,17 +57,25 @@ h6 {
     font-weight: 600;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 /* Чтобы текст песен тоже выглядел чисто */
-/* Центрируем текст песен */
 .lyrics {
     white-space: pre-wrap; /* сохраняем переводы строк */
-    color: #ffffff; /* белый текст */
-    font-size: 1.1rem; /* немного крупнее обычного */
-    line-height: 1;
-    max-width: 700px; /* чтобы не растягивалось на всю ширину */
-    margin: 3rem auto; /* центрирование и отступы сверху/снизу */
-    text-align: center; /* выравниваем строки по центру */
-    padding: 0 1rem; /* небольшой внутренний отступ */
+    color: #ffffff;
+    line-height: 0.8;
+    text-align: center;
+}
+
+.lyrics h2 {
+    margin-top: 0;
+}
+
+.lyrics p {
+    margin: 0;
 }
 
 /* Немного осветлим абзацы, чтобы текст был читаемее */
@@ -89,10 +103,9 @@ p {
 
 .platforms {
     display: flex;
-    justify-content: center; /* выравнивает по горизонтали */
-    align-items: center; /* выравнивает по вертикали (если есть высота) */
-    margin: 2rem auto; /* отступы сверху и снизу + центрирование */
-    max-width: 800px; /* чтобы не растягивалось на весь экран */
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
     width: 100%;
 }
 
@@ -101,9 +114,8 @@ p {
     border: 1px solid #2a2a2a; /* тонкая рамка чуть светлее фона */
     border-radius: 20px; /* полукруглые углы */
     padding: 2rem; /* внутренние отступы */
-    max-width: 900px; /* ограничиваем ширину для удобства чтения */
-    margin: 3rem auto 3rem 7rem; /* центрируем по горизонтали */
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.05); /* лёгкое свечение */
+    margin: 1rem 0;
 }
 
 /* Если хочешь чуть больше «глубины» */
@@ -113,26 +125,17 @@ p {
     transition: 0.3s ease;
 }
 
-/* сетка карточек */
 .song-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* по умолчанию — 2 в ряд */
-    gap: 1.2rem;
+    grid-template-columns: repeat(2, 1fr);
     padding: 0;
-    margin: 4rem auto 4rem 7rem;
-    max-width: 900px;
+    gap: 2rem;
     list-style: none;
 }
 
-/* брейкпоинты: 3 на десктопе, 4 — на очень широких */
 @media (min-width: 900px) {
     .song-grid {
         grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media (min-width: 1280px) {
-    .song-grid {
-        grid-template-columns: repeat(4, 1fr);
     }
 }
 

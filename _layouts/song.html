@@ -23,7 +23,16 @@ layout: default
         </div>
     </div>
     {% endif %} {% if page.spotify_url or page.apple_url or page.yandex_url or page.deezer_url %}
-    <div class="platforms">{% include platform-buttons.html %}</div>
+    <div class="platforms">
+        {% if page.spotify_url %}<a class="btn" href="{{ page.spotify_url }}" target="_blank" rel="noopener">Spotify</a
+        >{% endif %} {% if page.apple_url %}<a class="btn" href="{{ page.apple_url }}" target="_blank" rel="noopener"
+            >Apple Music</a
+        >{% endif %} {% if page.yandex_url %}<a class="btn" href="{{ page.yandex_url }}" target="_blank" rel="noopener"
+            >Yandex Music</a
+        >{% endif %} {% if page.deezer_url %}<a class="btn" href="{{ page.deezer_url }}" target="_blank" rel="noopener"
+            >Deezer</a
+        >{% endif %}
+    </div>
     {% endif %}
 
     <div class="lyrics">
