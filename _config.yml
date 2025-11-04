@@ -18,7 +18,7 @@ exclude:
 collections:
   songs:
     output: true
-    permalink: /songs/:title/
+    permalink: /songs/:path/
 
 defaults:
   - scope:

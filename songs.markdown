@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Singles
-permalink: /songs/
+permalink: /songs/:path/
 ---
 <h1>Singles</h1>
 
