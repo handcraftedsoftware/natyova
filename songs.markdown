@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Singles
-permalink: /songs/:path/
+permalink: /songs
 ---
-<h1>Singles</h1>
 
 <ul class="song-grid">
   {% assign sorted = site.songs | sort: 'date' | reverse %}
@@ -15,7 +14,7 @@ permalink: /songs/:path/
           <div class="thumb">
             <img
               src="{{ cover | relative_url }}"
-              alt="Обложка: {{ song.title }}"
+              alt="Cover: {{ song.title }}"
               loading="lazy"
               decoding="async"
             />

@@ -7,6 +7,7 @@ deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"
 apple_url: "https://music.apple.com/track/XXXXXXXX"
 cover: /assets/covers/i_want.png
+date: 2025-10-14
 ---
 
 [Verse 1]

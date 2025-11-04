@@ -7,6 +7,7 @@ deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"
 apple_url: "https://music.apple.com/track/XXXXXXXX"
 cover: /assets/covers/give_me_a_hug.png
+date: 2025-10-23
 ---
 
 [Verse 1]

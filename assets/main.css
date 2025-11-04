@@ -21,6 +21,9 @@
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
 }
 
+.site-hero-css .hero-inner .header {
+    font-size: 2rem;
+}
 /* Общие стили для тёмной темы */
 body {
     background-color: #121212;
