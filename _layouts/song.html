@@ -3,7 +3,6 @@ layout: default
 ---
 
 <article class="song">
-    <h1>{{ page.title }}</h1>
     <p class="meta">{% if page.album %}Альбом: {{ page.album }}{% endif %}</p>
 
     {% if page.youtube_id %}
@@ -22,6 +21,8 @@ layout: default
     <div class="platforms">{% include platform-buttons.html %}</div>
     {% endif %}
 
-    <h2>Текст</h2>
-    <div class="lyrics">{{ content | newline_to_br }}</div>
+    <div class="lyrics">
+        <h2>{{ page.title }}</h2>
+        {{ content | newline_to_br }}
+    </div>
 </article>
