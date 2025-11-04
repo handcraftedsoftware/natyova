@@ -1,8 +1,3 @@
----
----
-
-@import "tailwindcss";
-
 .site-hero-css {
     min-height: clamp(90px, 18vw, 90px);
     /*background: #000;*/
