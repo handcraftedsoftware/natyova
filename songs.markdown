@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Songs
+title: Singles
 permalink: /songs/
 ---
-<h1>Songs</h1>
+<h1>Singles</h1>
 
 <ul class="song-grid">
   {% assign sorted = site.songs | sort: 'date' | reverse %}

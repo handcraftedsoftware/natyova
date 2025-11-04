@@ -6,6 +6,7 @@ yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
 deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"
 apple_url: "https://music.apple.com/track/XXXXXXXX"
+cover: /assets/covers/winter_lets_talk.png
 ---
 
 [Verse 1]
