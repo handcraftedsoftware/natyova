@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="song">
-    <p class="meta">{% if page.album %}Альбом: {{ page.album }}{% endif %}</p>
+    <p class="meta">{% if page.album %}Album: {{ page.album }}{% endif %}</p>
     {% if page.youtube_id and page.youtube_id != "" %}
     <div class="embed">
         <iframe
@@ -19,7 +19,7 @@ layout: default
     {% else %}
     <div class="coming-soon-banner">
         <div class="banner-inner">
-            <p>🎵 Скоро на YouTube</p>
+            <p>🎵 Coming soon on YouTube</p>
         </div>
     </div>
     {% endif %} {% if page.spotify_url or page.apple_url or page.yandex_url or page.deezer_url %}
@@ -30,4 +30,16 @@ layout: default
         <h2>{{ page.title }}</h2>
         {{ content | newline_to_br }}
     </div>
+
+    <iframe
+        data-testid="embed-iframe"
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy?utm_source=generator&theme=0"
+        width="100%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+    ></iframe>
 </article>

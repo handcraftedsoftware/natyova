@@ -2,10 +2,10 @@
 title: Halloween
 year: 2025
 youtube_id: "rxkAmBZ7F48?si=p8cWXFu4xH2mzucQ"
-yandex_url: "https://music.yandex.ru/album/XXXXXX/track/YYYYYY"
-deezer_url: "https://www.deezer.com/track/XXXXXX"
-spotify_url: "https://open.spotify.com/track/XXXXXXXX"
-apple_url: "https://music.apple.com/track/XXXXXXXX"
+yandex_url: "https://music.yandex.com/artist/24745165"
+deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
+spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
+apple_url: "https://music.apple.com/ru/artist/naty-ova/1839618014"
 cover: /assets/covers/halloween.png
 date: 2025-10-10
 ---
