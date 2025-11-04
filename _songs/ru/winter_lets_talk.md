@@ -7,7 +7,7 @@ deezer_url: "https://www.deezer.com/track/XXXXXX"
 spotify_url: "https://open.spotify.com/track/XXXXXXXX"
 apple_url: "https://music.apple.com/track/XXXXXXXX"
 cover: /assets/covers/winter_lets_talk.png
-date: 2025-11-04
+date: 2025-11-03
 ---
 
 [Verse 1]

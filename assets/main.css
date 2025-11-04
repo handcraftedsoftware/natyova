@@ -108,7 +108,7 @@ p {
     border-radius: 20px; /* полукруглые углы */
     padding: 2rem; /* внутренние отступы */
     max-width: 900px; /* ограничиваем ширину для удобства чтения */
-    margin: 3rem auto; /* центрируем по горизонтали */
+    margin: 3rem auto 3rem 7rem; /* центрируем по горизонтали */
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.05); /* лёгкое свечение */
 }
 
@@ -125,7 +125,7 @@ p {
     grid-template-columns: repeat(2, 1fr); /* по умолчанию — 2 в ряд */
     gap: 1.2rem;
     padding: 0;
-    margin: 2rem auto 4rem;
+    margin: 4rem auto 4rem 7rem;
     max-width: 900px;
     list-style: none;
 }
