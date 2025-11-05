@@ -7,7 +7,7 @@ deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
 apple_url: "https://music.apple.com/ru/artist/naty-ova/1839618014"
 cover: /assets/covers/dark_times.png
-date: 2025-10-05
+date: 2025-11-05
 ---
 
 [Verse 1]
