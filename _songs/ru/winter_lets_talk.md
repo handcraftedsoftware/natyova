@@ -1,7 +1,7 @@
 ---
 title: Зима, есть к тебе разговор
 year: 2025
-youtube_id: ""
+youtube_id: "D3DZLumevNM?si=JezqAV-wmrym4mFp"
 yandex_url: "https://music.yandex.com/artist/24745165"
 deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
