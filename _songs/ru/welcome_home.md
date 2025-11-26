@@ -1,7 +1,7 @@
 ---
 title: Добро пожаловать домой
 year: 2025
-youtube_id: "U9btu5ZGsw?si=rgMxqt2A7bGrMeEu"
+youtube_id: "DU9btu5ZGsw?si=MLiJtwM9stYC_y2P"
 yandex_url: "https://music.yandex.com/artist/24745165"
 deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
