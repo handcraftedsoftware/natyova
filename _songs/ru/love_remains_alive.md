@@ -1,7 +1,7 @@
 ---
 title: Любовь остаётся жива
 year: 2025
-youtube_id: ""
+youtube_id: "gelQ0RFrXJ8?si=4siE2cb8sAKAb10M"
 yandex_url: "https://music.yandex.com/artist/24745165"
 deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
