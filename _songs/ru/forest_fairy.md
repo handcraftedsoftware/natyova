@@ -1,7 +1,7 @@
 ---
 title: Лесная фея
 year: 2025
-youtube_id: ""
+youtube_id: "DlvwEUPslfo?si=hkW2-z-WE2-x1C7U"
 yandex_url: "https://music.yandex.com/artist/24745165"
 deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
