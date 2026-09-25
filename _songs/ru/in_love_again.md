@@ -1,12 +1,12 @@
 ---
 title: Cнова влюблённая
 year: 2026
-youtube_id: ""
+youtube_id: "https://youtu.be/4mRPkcZt-YI?si=-BinENh_5qmi7snW"
 yandex_url: "https://music.yandex.com/artist/24745165"
 deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
 apple_url: "https://music.apple.com/ru/artist/naty-ova/1839618014"
-cover: /assets/covers/in_love_again.png
+cover: /assets/covers/in_love_again_2.png
 date: 2026-09-23
 ---
 
