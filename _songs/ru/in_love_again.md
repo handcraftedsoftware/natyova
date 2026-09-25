@@ -1,7 +1,7 @@
 ---
 title: Cнова влюблённая
 year: 2026
-youtube_id: "https://youtu.be/4mRPkcZt-YI?si=-BinENh_5qmi7snW"
+youtube_id: "4mRPkcZt-YI?si=-BinENh_5qmi7snW"
 yandex_url: "https://music.yandex.com/artist/24745165"
 deezer_url: "https://link.deezer.com/s/31vIaUANWoMkVUpEMIXog"
 spotify_url: "https://open.spotify.com/embed/artist/2aLg5dpsteTrO7w08lvOsy"
